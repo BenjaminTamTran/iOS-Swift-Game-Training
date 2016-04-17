@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8425DDF71CC141010002E338 /* backgroundSky3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8425DDF61CC141010002E338 /* backgroundSky3.jpg */; };
+		8425DDF91CC1418A0002E338 /* FireStone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8425DDF81CC1418A0002E338 /* FireStone.sks */; };
+		8425DDFB1CC144830002E338 /* FirePlan.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8425DDFA1CC144830002E338 /* FirePlan.sks */; };
+		8425DDFD1CC14DDA0002E338 /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425DDFC1CC14DDA0002E338 /* restart.png */; };
+		8425DE011CC1FDF90002E338 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425DE001CC1FDF90002E338 /* StartScene.swift */; };
+		8425DE031CC207FD0002E338 /* frame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8425DE021CC207FD0002E338 /* frame.jpg */; };
+		8425DE051CC214DA0002E338 /* plan1_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425DE041CC214DA0002E338 /* plan1_01.png */; };
+		8425DE071CC223970002E338 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425DE061CC223970002E338 /* back.png */; };
+		8425DE0D1CC287070002E338 /* FirePlay.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8425DE0C1CC287070002E338 /* FirePlay.sks */; };
+		8425DE0F1CC28ABD0002E338 /* gift.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425DE0E1CC28ABD0002E338 /* gift.png */; };
+		84427B291CBFC7670020D3CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84427B281CBFC7670020D3CA /* AppDelegate.swift */; };
+		84427B2B1CBFC7670020D3CA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84427B2A1CBFC7670020D3CA /* GameScene.sks */; };
+		84427B2D1CBFC7670020D3CA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84427B2C1CBFC7670020D3CA /* GameScene.swift */; };
+		84427B2F1CBFC7680020D3CA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84427B2E1CBFC7680020D3CA /* GameViewController.swift */; };
+		84427B321CBFC7680020D3CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84427B301CBFC7680020D3CA /* Main.storyboard */; };
+		84427B341CBFC7680020D3CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84427B331CBFC7680020D3CA /* Assets.xcassets */; };
+		84427B371CBFC7680020D3CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84427B351CBFC7680020D3CA /* LaunchScreen.storyboard */; };
+		84427B421CBFC7F90020D3CA /* plan01.png in Resources */ = {isa = PBXBuildFile; fileRef = 84427B3E1CBFC7F90020D3CA /* plan01.png */; };
+		84427B431CBFC7F90020D3CA /* plan02.png in Resources */ = {isa = PBXBuildFile; fileRef = 84427B3F1CBFC7F90020D3CA /* plan02.png */; };
+		84427B441CBFC7F90020D3CA /* plan03.png in Resources */ = {isa = PBXBuildFile; fileRef = 84427B401CBFC7F90020D3CA /* plan03.png */; };
+		84427B451CBFC7F90020D3CA /* plan04.png in Resources */ = {isa = PBXBuildFile; fileRef = 84427B411CBFC7F90020D3CA /* plan04.png */; };
+		84427B481CBFCF0B0020D3CA /* bullet01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84427B461CBFCF0B0020D3CA /* bullet01.jpeg */; };
+		84427B491CBFCF0B0020D3CA /* bullet02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84427B471CBFCF0B0020D3CA /* bullet02.jpg */; };
+		84427B4B1CBFD5F00020D3CA /* stone.png in Resources */ = {isa = PBXBuildFile; fileRef = 84427B4A1CBFD5F00020D3CA /* stone.png */; };
+		84427B4D1CBFECAD0020D3CA /* bullet01.png in Resources */ = {isa = PBXBuildFile; fileRef = 84427B4C1CBFECAD0020D3CA /* bullet01.png */; };
+		848603D71CBFFC8100F022AD /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 848603D51CBFFC8100F022AD /* Smoke.sks */; };
+		848603D81CBFFC8100F022AD /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 848603D61CBFFC8100F022AD /* spark.png */; };
+		848603DA1CC0096E00F022AD /* brust.wav in Resources */ = {isa = PBXBuildFile; fileRef = 848603D91CC0096E00F022AD /* brust.wav */; };
+		848603DD1CC0AF1B00F022AD /* Stone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848603DC1CC0AF1B00F022AD /* Stone.swift */; };
+		848603E01CC0C61200F022AD /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 848603DE1CC0C61200F022AD /* pause.png */; };
+		848603E11CC0C61200F022AD /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 848603DF1CC0C61200F022AD /* start.png */; };
+		848603E51CC0CA5200F022AD /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 848603E31CC0CA5200F022AD /* sound.png */; };
+		848603E61CC0CA5200F022AD /* mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 848603E41CC0CA5200F022AD /* mute.png */; };
+		848603E91CC1070C00F022AD /* backgroundSky.png in Resources */ = {isa = PBXBuildFile; fileRef = 848603E81CC1070C00F022AD /* backgroundSky.png */; };
+		848603EB1CC1111400F022AD /* backgroundSky2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 848603EA1CC1111400F022AD /* backgroundSky2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8425DDF61CC141010002E338 /* backgroundSky3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundSky3.jpg; sourceTree = "<group>"; };
+		8425DDF81CC1418A0002E338 /* FireStone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireStone.sks; sourceTree = "<group>"; };
+		8425DDFA1CC144830002E338 /* FirePlan.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FirePlan.sks; sourceTree = "<group>"; };
+		8425DDFC1CC14DDA0002E338 /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
+		8425DE001CC1FDF90002E338 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		8425DE021CC207FD0002E338 /* frame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frame.jpg; sourceTree = "<group>"; };
+		8425DE041CC214DA0002E338 /* plan1_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plan1_01.png; sourceTree = "<group>"; };
+		8425DE061CC223970002E338 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		8425DE0C1CC287070002E338 /* FirePlay.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FirePlay.sks; sourceTree = "<group>"; };
+		8425DE0E1CC28ABD0002E338 /* gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift.png; sourceTree = "<group>"; };
+		84427B251CBFC7670020D3CA /* SkyWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84427B281CBFC7670020D3CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84427B2A1CBFC7670020D3CA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		84427B2C1CBFC7670020D3CA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		84427B2E1CBFC7680020D3CA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		84427B311CBFC7680020D3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84427B331CBFC7680020D3CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84427B361CBFC7680020D3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84427B381CBFC7680020D3CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84427B3E1CBFC7F90020D3CA /* plan01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plan01.png; sourceTree = "<group>"; };
+		84427B3F1CBFC7F90020D3CA /* plan02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plan02.png; sourceTree = "<group>"; };
+		84427B401CBFC7F90020D3CA /* plan03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plan03.png; sourceTree = "<group>"; };
+		84427B411CBFC7F90020D3CA /* plan04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plan04.png; sourceTree = "<group>"; };
+		84427B461CBFCF0B0020D3CA /* bullet01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullet01.jpeg; sourceTree = "<group>"; };
+		84427B471CBFCF0B0020D3CA /* bullet02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullet02.jpg; sourceTree = "<group>"; };
+		84427B4A1CBFD5F00020D3CA /* stone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone.png; sourceTree = "<group>"; };
+		84427B4C1CBFECAD0020D3CA /* bullet01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet01.png; sourceTree = "<group>"; };
+		848603D51CBFFC8100F022AD /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		848603D61CBFFC8100F022AD /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		848603D91CC0096E00F022AD /* brust.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = brust.wav; sourceTree = "<group>"; };
+		848603DC1CC0AF1B00F022AD /* Stone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stone.swift; sourceTree = "<group>"; };
+		848603DE1CC0C61200F022AD /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		848603DF1CC0C61200F022AD /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		848603E31CC0CA5200F022AD /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound.png; sourceTree = "<group>"; };
+		848603E41CC0CA5200F022AD /* mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mute.png; sourceTree = "<group>"; };
+		848603E81CC1070C00F022AD /* backgroundSky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundSky.png; sourceTree = "<group>"; };
+		848603EA1CC1111400F022AD /* backgroundSky2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundSky2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84427B221CBFC7670020D3CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84427B1C1CBFC7670020D3CA = {
+			isa = PBXGroup;
+			children = (
+				84427B271CBFC7670020D3CA /* SkyWar */,
+				84427B261CBFC7670020D3CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84427B261CBFC7670020D3CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84427B251CBFC7670020D3CA /* SkyWar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84427B271CBFC7670020D3CA /* SkyWar */ = {
+			isa = PBXGroup;
+			children = (
+				848603E21CC0C62100F022AD /* Resources */,
+				848603DB1CC0AF0000F022AD /* Models */,
+				84427B281CBFC7670020D3CA /* AppDelegate.swift */,
+				84427B2A1CBFC7670020D3CA /* GameScene.sks */,
+				84427B2C1CBFC7670020D3CA /* GameScene.swift */,
+				84427B2E1CBFC7680020D3CA /* GameViewController.swift */,
+				84427B301CBFC7680020D3CA /* Main.storyboard */,
+				84427B331CBFC7680020D3CA /* Assets.xcassets */,
+				84427B351CBFC7680020D3CA /* LaunchScreen.storyboard */,
+				84427B381CBFC7680020D3CA /* Info.plist */,
+				8425DE001CC1FDF90002E338 /* StartScene.swift */,
+			);
+			path = SkyWar;
+			sourceTree = "<group>";
+		};
+		848603DB1CC0AF0000F022AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				848603DC1CC0AF1B00F022AD /* Stone.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		848603E21CC0C62100F022AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8425DE041CC214DA0002E338 /* plan1_01.png */,
+				8425DE021CC207FD0002E338 /* frame.jpg */,
+				8425DDFC1CC14DDA0002E338 /* restart.png */,
+				8425DDF61CC141010002E338 /* backgroundSky3.jpg */,
+				848603E31CC0CA5200F022AD /* sound.png */,
+				848603E41CC0CA5200F022AD /* mute.png */,
+				8425DE061CC223970002E338 /* back.png */,
+				848603D91CC0096E00F022AD /* brust.wav */,
+				84427B4C1CBFECAD0020D3CA /* bullet01.png */,
+				84427B4A1CBFD5F00020D3CA /* stone.png */,
+				84427B3E1CBFC7F90020D3CA /* plan01.png */,
+				84427B3F1CBFC7F90020D3CA /* plan02.png */,
+				848603EA1CC1111400F022AD /* backgroundSky2.jpg */,
+				848603E81CC1070C00F022AD /* backgroundSky.png */,
+				84427B461CBFCF0B0020D3CA /* bullet01.jpeg */,
+				84427B471CBFCF0B0020D3CA /* bullet02.jpg */,
+				84427B401CBFC7F90020D3CA /* plan03.png */,
+				8425DE0E1CC28ABD0002E338 /* gift.png */,
+				84427B411CBFC7F90020D3CA /* plan04.png */,
+				848603DE1CC0C61200F022AD /* pause.png */,
+				848603DF1CC0C61200F022AD /* start.png */,
+				848603D51CBFFC8100F022AD /* Smoke.sks */,
+				848603D61CBFFC8100F022AD /* spark.png */,
+				8425DDF81CC1418A0002E338 /* FireStone.sks */,
+				8425DDFA1CC144830002E338 /* FirePlan.sks */,
+				8425DE0C1CC287070002E338 /* FirePlay.sks */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84427B241CBFC7670020D3CA /* SkyWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84427B3B1CBFC7680020D3CA /* Build configuration list for PBXNativeTarget "SkyWar" */;
+			buildPhases = (
+				84427B211CBFC7670020D3CA /* Sources */,
+				84427B221CBFC7670020D3CA /* Frameworks */,
+				84427B231CBFC7670020D3CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyWar;
+			productName = SkyWar;
+			productReference = 84427B251CBFC7670020D3CA /* SkyWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84427B1D1CBFC7670020D3CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "The Simple Studio";
+				TargetAttributes = {
+					84427B241CBFC7670020D3CA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 84427B201CBFC7670020D3CA /* Build configuration list for PBXProject "SkyWar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84427B1C1CBFC7670020D3CA;
+			productRefGroup = 84427B261CBFC7670020D3CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84427B241CBFC7670020D3CA /* SkyWar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84427B231CBFC7670020D3CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8425DE0D1CC287070002E338 /* FirePlay.sks in Resources */,
+				8425DE051CC214DA0002E338 /* plan1_01.png in Resources */,
+				84427B4D1CBFECAD0020D3CA /* bullet01.png in Resources */,
+				84427B2B1CBFC7670020D3CA /* GameScene.sks in Resources */,
+				848603DA1CC0096E00F022AD /* brust.wav in Resources */,
+				848603D71CBFFC8100F022AD /* Smoke.sks in Resources */,
+				8425DDFB1CC144830002E338 /* FirePlan.sks in Resources */,
+				848603EB1CC1111400F022AD /* backgroundSky2.jpg in Resources */,
+				8425DDFD1CC14DDA0002E338 /* restart.png in Resources */,
+				848603D81CBFFC8100F022AD /* spark.png in Resources */,
+				84427B491CBFCF0B0020D3CA /* bullet02.jpg in Resources */,
+				848603E01CC0C61200F022AD /* pause.png in Resources */,
+				84427B421CBFC7F90020D3CA /* plan01.png in Resources */,
+				8425DE031CC207FD0002E338 /* frame.jpg in Resources */,
+				8425DDF71CC141010002E338 /* backgroundSky3.jpg in Resources */,
+				848603E11CC0C61200F022AD /* start.png in Resources */,
+				8425DDF91CC1418A0002E338 /* FireStone.sks in Resources */,
+				84427B4B1CBFD5F00020D3CA /* stone.png in Resources */,
+				84427B371CBFC7680020D3CA /* LaunchScreen.storyboard in Resources */,
+				84427B481CBFCF0B0020D3CA /* bullet01.jpeg in Resources */,
+				84427B341CBFC7680020D3CA /* Assets.xcassets in Resources */,
+				84427B451CBFC7F90020D3CA /* plan04.png in Resources */,
+				8425DE0F1CC28ABD0002E338 /* gift.png in Resources */,
+				8425DE071CC223970002E338 /* back.png in Resources */,
+				84427B441CBFC7F90020D3CA /* plan03.png in Resources */,
+				848603E51CC0CA5200F022AD /* sound.png in Resources */,
+				84427B431CBFC7F90020D3CA /* plan02.png in Resources */,
+				848603E91CC1070C00F022AD /* backgroundSky.png in Resources */,
+				84427B321CBFC7680020D3CA /* Main.storyboard in Resources */,
+				848603E61CC0CA5200F022AD /* mute.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84427B211CBFC7670020D3CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84427B2D1CBFC7670020D3CA /* GameScene.swift in Sources */,
+				84427B2F1CBFC7680020D3CA /* GameViewController.swift in Sources */,
+				84427B291CBFC7670020D3CA /* AppDelegate.swift in Sources */,
+				8425DE011CC1FDF90002E338 /* StartScene.swift in Sources */,
+				848603DD1CC0AF1B00F022AD /* Stone.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84427B301CBFC7680020D3CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84427B311CBFC7680020D3CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84427B351CBFC7680020D3CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84427B361CBFC7680020D3CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84427B391CBFC7680020D3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84427B3A1CBFC7680020D3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84427B3C1CBFC7680020D3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyWar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thesimplestudio.meetmii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84427B3D1CBFC7680020D3CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyWar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thesimplestudio.meetmii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84427B201CBFC7670020D3CA /* Build configuration list for PBXProject "SkyWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84427B391CBFC7680020D3CA /* Debug */,
+				84427B3A1CBFC7680020D3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84427B3B1CBFC7680020D3CA /* Build configuration list for PBXNativeTarget "SkyWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84427B3C1CBFC7680020D3CA /* Debug */,
+				84427B3D1CBFC7680020D3CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84427B1D1CBFC7670020D3CA /* Project object */;
+}
